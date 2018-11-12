@@ -42,6 +42,7 @@ $("#bt_next").click(function(){
 	listMove();
 });
 function listMove(){
+	
 	$(".slide>ul").stop().animate({left:current*1500*-1},function(){
 		$(".bts").css("color","#ccc")
 		$(".bts").eq(current).css("color","#000")
@@ -104,19 +105,61 @@ $(".bts").click(function(){
 <div id="slide_wrap">
 	<div class="slide">
 		<ul>
-			<li><img src="./images/banner01.jpg" alt="img01"></li>
-			<li><img src="./images/banner02.jpg" alt="img02"></li>
-			<li><img src="./images/banner03.jpg" alt="img03"></li>
-			<li><img src="./images/banner04.jpg" alt="img04"></li>
-			<li><img src="./images/banner05.jpg" alt="img05"></li>
-			<li><img src="./images/banner06.jpg" alt="img06"></li>
-		</ul>
-		<div class="content_detail">
-			<p>Lorem ipsum.</p>
-			<p>Lorem ipsum dolor sit.</p>
-			<a href="#">more</a>
-			</div>
 
+			<li>
+				<div>
+				<h2><strong>INFINITI Q60</strong></h2>
+				<p>퍼포먼스, 그 이상의 미학</p>
+				<a href="#"><strong>EXPLORE</strong></a>
+				</div>
+				<img src="./images/banner01.jpg" alt="img01">
+			</li>
+
+			
+			<li>
+			<div>
+				<h2><strong>INFINITI Q50</strong></h2>
+				<p>스포츠카의 퍼포먼스를 하이브리드의 효율로</p>
+				<a href="#"><strong>EXPLORE</strong></a>
+			</div>
+				<img src="./images/banner02.jpg" alt="img02">
+			</li>
+
+			<li>
+			<div>
+				<h2><strong>INFINITI Q30</strong></h2>
+				<p>BORN TO CHALLENGE</p>
+				<a href="#"><strong>EXPLORE</strong></a>
+			</div>
+			<img src="./images/banner03.jpg" alt="img03">
+			</li>
+
+			<li>
+			<div>
+				<h2><strong>INFINITI QX60</strong></h2>
+				<p>패밀리를 위한 럭셔리</p>
+				<a href="#"><strong>EXPLORE</strong></a>
+			</div>
+			<img src="./images/banner04.jpg" alt="img04">
+			</li>
+
+			<li>
+			<div>
+				<h2><strong>INFINITI Q70</strong></h2>
+				<p>이것이 럭셔리의 비전이다</p>
+				<a href="#"><strong>EXPLORE</strong></a></div>
+			<img src="./images/banner05.jpg" alt="img05">
+			</li>
+
+			<li>
+			<span class="last">
+				<h2><strong>EMPOWER THE DRIVE</strong></h2>
+				<p>We build machines not just pursuit of technology,but in pursuit of<br>potential our cars and the people who drive them.</p>
+				<a href="#"><strong>FIND OUT MORE</strong></a>
+				</span>
+			<img src="./images/banner06.jpg" alt="img06"></li>
+		</ul>
+		</div>
 		<div class="btn">
 			<span id="bt_prev"><i class="fas fa-chevron-left"></i></span>
 			<span id="bt_next"><i class="fas fa-chevron-right"></i></span>
